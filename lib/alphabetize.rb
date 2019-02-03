@@ -1,3 +1,5 @@
+ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+
 def alphabetize(arr)
-  # code here
+  arr.sort_by {|word| ESPERANTO_ALPHABET.index[word]}
 end
